@@ -1,0 +1,35 @@
+# Items
+item.wrench.name=Wrench
+item.nanobrush.name=Nanobrush
+item.glasses.name=Glasses
+item.location_card.name=Location Card
+item.blank_portal_module.name=Blank Portal Module
+item.blank_upgrade.name=Blank Upgrade
+item.manual.name=ENHANCED PORTALS: wormhole tunneling.
+item.portal_module.0.name=Particle Destroyer
+item.portal_module.0.desc=Stops particles from getting created
+item.portal_module.1.name=Rainbow Particles
+item.portal_module.1.desc=Every particle will have a random colour
+item.portal_module.2.name=Silencer
+item.portal_module.2.desc=Silences the portal
+item.portal_module.3.name=Momentum
+item.portal_module.3.desc=Entities keep their momentum
+item.portal_module.4.name=Cloaking
+item.portal_module.4.desc=Makes the portal completely invisible
+item.portal_module.5.name=Particle Shader
+item.portal_module.5.desc=Particles randomly spawn lighter or darker
+item.portal_module.6.name=Facing
+item.portal_module.6.desc=Direction to face on teleport
+item.portal_module.7.name=Featherfall
+item.portal_module.7.desc=Negates fall damage
+item.pu_redstone_interface.name=Redstone Interface Upgrade
+item.pu_network_interface.name=Network Interface Upgrade
+item.pu_dialling_device.name=Dialing Device Upgrade
+item.pu_programmable_interface.name=Programmable Interface Upgrade
+item.pu_portal_manipulator.name=Module Manipulator Upgrade
+item.pu_fluid_transportation.name=Fluid Transportation Upgrade
+item.pu_item_transportation.name=Item Transportation Upgrade
+item.pu_energy_transportation.name=Energy Transportation Upgrade
+
+# Creative Tab
+itemGroup.epreborn=Enhanced Portals: Reborn
