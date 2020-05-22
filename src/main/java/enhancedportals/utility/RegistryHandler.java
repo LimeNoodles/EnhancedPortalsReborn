@@ -23,13 +23,26 @@ public class RegistryHandler
 
     public static final RegistryObject<Item> BLANK_PORTAL_MODULE = ITEMS.register("blank_portal_module", ItemBase::new);
     public static final RegistryObject<Item> BLANK_UPGRADE = ITEMS.register("blank_upgrade", ItemBase::new);
-    public static final RegistryObject<Item> PORTAL_FRAME = ITEMS.register("portal_frame", ItemBase::new);
     public static final RegistryObject<Item> GLASSES = ITEMS.register("glasses", ItemBase::new);
     public static final RegistryObject<Item> LOCATION_CARD = ITEMS.register("location_card", ItemBase::new);
     public static final RegistryObject<Item> MANUAL = ITEMS.register("manual", ItemBase::new);
     public static final RegistryObject<Item> NANO_BRUSH = ITEMS.register("nano_brush", ItemBase::new);
-    public static final RegistryObject<Item> PORTAL_MODULE = ITEMS.register("portal_module", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_CLOAKING = ITEMS.register("pm_cloaking", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_FACING = ITEMS.register("pm_facing", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_FEATHER_FALL = ITEMS.register("pm_feather_fall", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_MOMENTUM = ITEMS.register("pm_momentum", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_PARTICLE_DESTROYER = ITEMS.register("pm_particle_destroyer", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_RAINBOW_PARTICLES = ITEMS.register("pm_particle_rainbow", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_TINT_PARTICLES = ITEMS.register("pm_particle_tint", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_MODULE_SILENCER = ITEMS.register("pm_silencer", ItemBase::new);
     public static final RegistryObject<Item> PORTAL_STABILIZER = ITEMS.register("portal_stabilizer", ItemBase::new);
-    public static final RegistryObject<Item> PORTAL_UPGRADE = ITEMS.register("portal_upgrade", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_DIALLING_DEVICE = ITEMS.register("pu_dialling_device", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_NETWORK_INTERFACE = ITEMS.register("pu_network_interface", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_PORTAL_MANIPULATOR = ITEMS.register("pu_portal_manipulator", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_PROGRAMMABLE_INTERFACE = ITEMS.register("pu_programmable_interface", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_REDSTONE_INTERFACE = ITEMS.register("pu_redstone_interface", ItemBase::new);;
+    public static final RegistryObject<Item> PORTAL_UPGRADE_ENERGY_TRANSPORTATION = ITEMS.register("pu_energy_transportation", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_FLUID_TRANSPORTATION = ITEMS.register("pu_fluid_transportation", ItemBase::new);
+    public static final RegistryObject<Item> PORTAL_UPGRADE_ITEM_TRANSPORTATION = ITEMS.register("pu_item_transportation", ItemBase::new);
     public static final RegistryObject<Item> WRENCH = ITEMS.register("wrench", ItemBase::new);
 }
