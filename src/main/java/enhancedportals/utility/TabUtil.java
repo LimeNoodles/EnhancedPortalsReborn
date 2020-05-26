@@ -1,20 +1,20 @@
 package enhancedportals.utility;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-
-import enhancedportals.item.Items;
 
 public class TabUtil extends CreativeTabs
 {
     public TabUtil(String label)
     {
-        super(Reference.MOD_ID);
+        super("epreborn");
     }
 
     @Override
     public ItemStack getTabIconItem()
     {
-        return new ItemStack(Items.BLANK_PORTAL_MODULE);
+        return new ItemStack(Item.getItemFromBlock(Blocks.DIRT));
     }
 }

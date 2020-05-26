@@ -1,13 +1,13 @@
 package enhancedportals.item;
 
-import net.minecraft.item.Item;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Items 
+import net.minecraft.item.Item;
+
+public class Items
 {
-    public static final List<Item> ITEMS = new ArrayList<Item>();
+    public static final List<Item> ITEMS = new ArrayList<>();
 
     public static final Item BLANK_PORTAL_MODULE = new ItemBase("blank_portal_module");
     public static final Item BLANK_UPGRADE = new ItemBase("blank_upgrade");

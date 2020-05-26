@@ -1,6 +1,5 @@
 package cofh.api.util;
 
-import cofh.core.util.helpers.ItemHelper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
@@ -359,11 +358,11 @@ public class ThermalExpansionHelper {
 	@Deprecated
 	public static void addCompactorPressRecipe(int energy, ItemStack input, ItemStack output) {
 
-		if (ItemHelper.isPlate(input)) {
-			addCompactorPlateRecipe(energy, input, output);
-		} else {
-			addCompactorRecipe(energy, input, output);
-		}
+		//if (ItemHelper.isPlate(input)) {
+			//addCompactorPlateRecipe(energy, input, output);
+		//} else {
+			//addCompactorRecipe(energy, input, output);
+		//}
 	}
 
 	@Deprecated
