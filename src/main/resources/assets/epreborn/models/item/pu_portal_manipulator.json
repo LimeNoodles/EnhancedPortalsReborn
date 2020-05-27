@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "epreborn:items/pu_portal_manipulator"
+    "layer0": "epreborn:items/blank_upgrade",
+    "layer1": "epreborn:items/pu_portal_manipulator"
   }
 }
